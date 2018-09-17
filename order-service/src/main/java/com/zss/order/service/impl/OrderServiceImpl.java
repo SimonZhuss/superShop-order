@@ -2,7 +2,6 @@ package com.zss.order.service.impl;
 
 import java.util.List;
 
-import org.apache.commons.codec.binary.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,8 +11,6 @@ import com.zss.order.request.UserReq;
 import com.zss.order.response.BaseResEntity;
 import com.zss.order.response.ResponseEntity;
 import com.zss.order.service.OrderService;
-
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 订单实现类
